@@ -30,7 +30,7 @@ conda activate ice-finder
 ```
 
 ## Quickstart
-Get started by following the `notebooks/workflow.ipynb` for a step-by-step guide
+Get started by following the `notebook/workflow.ipynb` for a step-by-step guide
 
 ##  Contributions
 Feel free to contribute by opening issues or submitting pull requests.
