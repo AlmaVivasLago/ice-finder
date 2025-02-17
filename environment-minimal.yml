@@ -1,0 +1,24 @@
+name: ice-finder
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - nn-template-core
+      - torch
+      - torchvision
+      - torchaudio
+      - pytorch-lightning
+      - lightning
+      - torchmetrics
+      - segmentation-models-pytorch
+      - hydra-core
+      - python-dotenv
+      - pandas
+      - tqdm
+      - mrcfile
+      - pillow
+      - opencv-python
+      - matplotlib
