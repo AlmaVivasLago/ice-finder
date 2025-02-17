@@ -5,11 +5,13 @@
 **Cryo-ET Automatic Ice Quantification**
 ---
 
-**Ice Finder: Few-Shot Learning for Non-Vitrified Ice Segmentation**  
+**Few-Shot Learning for Non-Vitrified Ice Segmentation**  
 
 **Citation:**  
-> Alma Vivas-Lago, Daniel Castaño-Díez. *"Ice Finder: Few-Shot Learning for Non-Vitrified Ice Segmentation."* Preprint, bioRxiv, 2024.  
-> DOI: [https://doi.org/10.1101/2024.08.05.606577](https://doi.org/10.1101/2024.08.05.606577)
+
+> **Alma Vivas-Lago, Daniel Castaño-Díez.** *"Few-shot learning for non-vitrified ice segmentation."* **Scientific Reports, 2025.**  
+> DOI: [https://doi.org/10.1038/s41598-025-86308-0](https://doi.org/10.1038/s41598-025-86308-0)
+
 
 ---
 
@@ -22,15 +24,25 @@ This repository provides the code for the Ice Finder tool, offering streamlined 
 Clone the repository and install the environment:
 
 ```bash
-git clone git@github.com:AlmaVivasLago/ice-finder.git
+git clone https://github.com/AlmaVivasLago/ice-finder.git
 cd ice-finder
+conda env create -f environment-minimal.yml
+conda activate ice-finder
+
+```
+
+By default, this sets up the minimal environment with only the essential dependencies.
+
+If you need additional tools for development, you can use the full environment instead:
+
+```bash
 conda env create -f environment.yml
 conda activate ice-finder
 
 ```
 
 ## Quickstart
-Get started by following the `notebook/workflow.ipynb` for a step-by-step guide
+Get started by following the `notebook/workflow.ipynb` for a step-by-step guide.
 
 ##  Contributions
 Feel free to contribute by opening issues or submitting pull requests.
